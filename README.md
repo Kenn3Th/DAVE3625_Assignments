@@ -4,4 +4,4 @@ Oblig1.ipynb is our delivery, testing.ipynb file is for testing the data-set and
 
 The people working on this assignment was
 * Kenneth R. Eikrehagen s331475@oslomet.no
-* Sindre B. Øvstegård 
+* Sindre B. Øvstegård s318337@oslomet.no
