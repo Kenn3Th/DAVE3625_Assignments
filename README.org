@@ -1,0 +1,18 @@
+#+title: DAVE3625 - Readme
+#+author: Kenneth R. Eikrehagen & Sindre B. Øvstegård
+#+description: Readme for assignments in DAVE3625 at OsloMet. Emails to authors is s331475@oslomet.no (Kenneth) & s318337@oslomet.no (Sindre).
+
+* Notes
+
+** Participants
+   * Kenneth Ramos Eikrehagen (s331475@oslomet.no)
+   * Sindre Bergsvik Øvstegård (s318337@oslomet.no)
+
+* Assignment 1
+  Assignment1.ipynb is our delivery file, testing.ipynb file is for testing the data-set and getting to know pandas better
+
+* Assignment 2
+
+** Task 1 - Regression <2020-10-21>
+   Task 1 was chosen for the assignment. Based on the data presented in "NAS.csv", a linear regression model was implemeted.
+   Also there is no need for labelling the data as discrete classes, when the object is to predict "continuous" values.
