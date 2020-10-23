@@ -54,7 +54,7 @@ linRegModell = linear_model.LinearRegression()
 linRegModell.fit(dates, adjPrice)
 
 # ----- POLY -------
-polyRegModel = PolynomialFeatures(degree=3)
+polyRegModel = PolynomialFeatures(degree=9)
 datesPoly = polyRegModel.fit_transform(dates)
 polyRegModel.fit(datesPoly, adjPrice)
 linRegModell2 = linear_model.LinearRegression()
@@ -93,4 +93,4 @@ while(True):
     linPredPrice = predictLinearModel(convertToDate(dateIp_), linRegModell)
     polPredPrice = predictPolModel(convertToDate(dateIp_), linRegModell2)
     print(f"Predicted price (Linear regression): {linPredPrice}")
-    print(f"Predicted price (Linear regression): {polPredPrice}")
+    print(f"Predicted price (Polynomial regression): {polPredPrice}")
