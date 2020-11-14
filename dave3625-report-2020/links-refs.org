@@ -1,0 +1,7 @@
+#+author: Sindre & Kenneth
+#+title: Links and references
+#+description: Links and references to final report in DAVE3625 year 2020.
+
+* Links:
+Example how to use link -> [[url goes here][name that is displayed]]
+[[https://towardsdatascience.com/ai-and-the-vehicle-went-autonomous-e176c73239c6][Forsskjellige algorithmer i selvkjørende biler]]
