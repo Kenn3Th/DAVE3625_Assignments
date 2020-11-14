@@ -7,3 +7,6 @@
 Example how to use link -> [[url goes here][name that is displayed]]
 ** towardsdatascience
 [[https://towardsdatascience.com/ai-and-the-vehicle-went-autonomous-e176c73239c6][Forskjellige algorithmer i selvkjørende biler]]
+** IEEE articles
+[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5940562][Towards Fully Autonomous Driving: Systems and Algorithms]]
+[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8457076&tag=1][]]
