@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.9)  5 NOV 2020 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.9)  14 NOV 2020 14:19
 entering extended mode
 **c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
 (c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
@@ -123,13 +123,11 @@ LaTeX Font Info:    ... okay on input line 329.
 
 -- Lines per column: 56 (exact).
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 413.
+(Font)              <8> on input line 522.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 413.
+(Font)              <6> on input line 522.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 560.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 560.
+(Font)              <5> on input line 522.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -147,15 +145,15 @@ Before submitting the final camera ready copy, remember to:
 
 ] (dave3625-report-2020.aux) ) 
 Here is how much of TeX's memory you used:
- 1215 strings out of 481212
- 24111 string characters out of 2915728
- 262776 words of memory out of 3000000
- 16860 multiletter control sequences out of 15000+200000
- 570176 words of font info for 87 fonts, out of 3000000 for 9000
+ 1212 strings out of 481212
+ 24084 string characters out of 2915728
+ 260776 words of memory out of 3000000
+ 16859 multiletter control sequences out of 15000+200000
+ 567962 words of font info for 85 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  27i,7n,25p,320b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dave3625-report-2020.pdf (1 page, 47036 bytes).
+Output written on dave3625-report-2020.pdf (1 page, 36281 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
