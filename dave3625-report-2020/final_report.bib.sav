@@ -1,14 +1,23 @@
 % Encoding: UTF-8
 
-@Misc{,
+@misc{Volvo2020,
   author       = {Volvo},
   howpublished = {Web},
   title        = {Volvo’s Vera autonomous trucks will transport DFDS goods on public roads},
-  abstract     = {Volvo has announced a commercial first for its electric autonomous trucks.
-The Swedish automotive titan has partnered with ferry and logistics giant DFDS to use Volvo Trucks’ “Vera” to transport goods between a logistics hub and a port in Sweden.},
+  year         = {2020},
+  abstract     = {Volvo has announced a commercial first for its electric autonomous trucks. The Swedish automotive titan has partnered with ferry and logistics giant DFDS to use Volvo Trucks’ “Vera” to transport goods between a logistics hub and a port in Sweden.},
   keywords     = {volvo},
   owner        = {Volvo},
-  url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/#:~:text=Volvo has announced a commercial,and a port in Sweden.},
+  url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads has announced a commercial,and a port in Sweden.}
+}
+
+@Misc{,
+  author       = {Jeremy Cohen},
+  howpublished = {Web},
+  month        = jan,
+  title        = {AI… And the vehicle went autonomous},
+  year         = {2018},
+  url          = {https://towardsdatascience.com/ai-and-the-vehicle-went-autonomous-e176c73239c6},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
