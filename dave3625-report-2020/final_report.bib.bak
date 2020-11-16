@@ -1,0 +1,14 @@
+% Encoding: UTF-8
+
+@Misc{,
+  author       = {Volvo},
+  howpublished = {Web},
+  title        = {Volvo’s Vera autonomous trucks will transport DFDS goods on public roads},
+  abstract     = {Volvo has announced a commercial first for its electric autonomous trucks.
+The Swedish automotive titan has partnered with ferry and logistics giant DFDS to use Volvo Trucks’ “Vera” to transport goods between a logistics hub and a port in Sweden.},
+  keywords     = {volvo},
+  owner        = {Volvo},
+  url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/#:~:text=Volvo has announced a commercial,and a port in Sweden.},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
