@@ -404,7 +404,7 @@
 \section{Introduction}
  The technology in automobile industry has made some remarkable progress the last century. They have managed to
  make safe, reliable and affordable vehicles. The last couple of decades have seen significant advancements
- in computation and communication technologies, and consequentially autonomous vehicles are now becoming a reality \cite{IEEE:AutonomousCars}.
+ in computation and communication technologies, and consequentially autonomous vehicles (AV) are now becoming a reality \cite{IEEE:AutonomousCars}.
  Several prototypes exists today. Among others, Volvo have started implementing autonomous trucks that deliver goods \cite{Volvo2020}.
  \subsection{Autonomous vehicles}
 	 \subsubsection{What is it?}
@@ -433,6 +433,8 @@
 		 % Nevralnett etc.
 \section{Theory}
  \subsection{Technology}
+ A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
+ and nonautonomous.
 	 \subsubsection{Real Time Operating System}
 		 Cars today rely on numbers of sensors to acquire information about their surroundings.
 		 The velocity, GPS, proximity to obstacles, temperature etc. This sensors communicate to certain
@@ -440,15 +442,20 @@
 		 of OS. A so called Real Time Operating System (RTOS) makes up the central core and processor
 		 of the car. Within, all decisions based on data form the sensors are made and functions
 		 executed. Some aspects of RTOS are presented here.
+
 		 \paragraph{Hardt time RTOS}
 		 A deterministic RTOS. Meaning that the output of the RTOS should happen within a certain
 		 time or deadline. Used in mission critical systems like medical devices, fight control
 		 space shuttles etcetera.
+
 		 \paragraph{Soft time RTOS}
 		 Not as deterministic as Hard Time, but deadline of tasks and processes should be met within
 		 certain limits. The RTOS performance will degrade if tasks are never done within deadline and
-		 would be useless. Examples here can be AV-systems for entertainment, games and general purpose
+		 would be useless. Examples here can be audio-visual-systems for entertainment, games and general purpose
 		 OS's like Windows, Ubuntu and iOS.
+\subsubsection{LIDAR}
+\subsubsection{GPS}
+
  \subsection{Autonomy}
  \subsection{Machine learning}
 	 \subsubsection{Deep learning}
@@ -460,8 +467,9 @@
 		 % Tekniske termer skal forklares i teoribiten og blir refert dit
 		 % antas videre at leseren vet dette
 \section{Main content} % # IN PROGRESS: Make title
- \subsection{Object recognition}
-
+ \subsection{Which algorithms are used?}
+	 What kind of algorithm used is dependent on computational ability and determined on what kind of technology
+	 implemented within the AV. Be it GPS, LIDAR
 
 	 % # TODO: Diskusjon
 	 % Refleksjoner rundt problemstillinger, termer etc.
