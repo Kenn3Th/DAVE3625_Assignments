@@ -21,16 +21,6 @@
   doi       = {10.1109/IVS.2011.5940562}
 }
 
-@misc{contributor_2020,
-  title     = {Self-driving car},
-  url       = {https://en.wikipedia.org/wiki/Self-driving_car},
-  journal   = {Wikipedia},
-  publisher = {Wikimedia Foundation},
-  author    = {Contributor, Wikipedia},
-  year      = {2020},
-  month     = {Nov}
-}
-
 @misc{IEEE:AutonomousCars,
   author    = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
   title     = {Towards fully autonomous driving: Systems and algorithms},

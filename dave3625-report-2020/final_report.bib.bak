@@ -23,12 +23,12 @@
 
 @misc{contributor_2020,
   title     = {Self-driving car},
-  url       = {https://en.wikipedia.org/wiki/Self-driving_car},
   journal   = {Wikipedia},
   publisher = {Wikimedia Foundation},
   author    = {Contributor, Wikipedia},
   year      = {2020},
-  month     = {Nov}
+  month     = {Nov},
+  url       = {https://en.wikipedia.org/wiki/Self-driving_car}
 }
 
 @misc{IEEE:AutonomousCars,
