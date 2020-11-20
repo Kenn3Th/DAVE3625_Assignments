@@ -433,8 +433,8 @@
 		 % Nevralnett etc.
 \section{Theory}
  \subsection{Technology}
- A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
- and nonautonomous.
+	 A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
+	 and nonautonomous.
 	 \subsubsection{Real Time Operating System}
 		 Cars today rely on numbers of sensors to acquire information about their surroundings.
 		 The velocity, GPS, proximity to obstacles, temperature etc. This sensors communicate to certain
@@ -453,8 +453,24 @@
 		 certain limits. The RTOS performance will degrade if tasks are never done within deadline and
 		 would be useless. Examples here can be audio-visual-systems for entertainment, games and general purpose
 		 OS's like Windows, Ubuntu and iOS.
-\subsubsection{LIDAR}
-\subsubsection{GPS}
+	 \subsubsection{Camera}
+		 Cameras are indispensable for providing visual information and feedback to any system,
+		 in regards to its environment. In comparison to radar, LIDAR or similar sensors,
+		 cameras are affected by weather, dust and pollution.
+	 \subsubsection{RADAR}
+		 Radio Detection and Ranging (RADAR) can complement the camera and is resistant to both
+		 pollution, weather and similar. It emits electromagnetic waves which reflects on obstacles
+		 and back to the RADAR. Distance, velocity and position (relative to the RADAR) can then
+		 be calculated with great accuracy. There are different types of RADAR and the most used
+		 is Frequency-modulated continuous Wave (FMCW).
+
+		 \paragraph{FMWC}
+		 Allows the detection of small objects with the use of the Doppler effect. Since the
+		 known transmitted frequency is known, stable and slow-moving objects can be filtered
+		 out of the receiving signal. This reduces interference and increases the signal to noise
+		 ratio.
+	 \subsubsection{LIDAR}
+	 \subsubsection{GPS}
 
  \subsection{Autonomy}
  \subsection{Machine learning}
@@ -469,7 +485,7 @@
 \section{Main content} % # IN PROGRESS: Make title
  \subsection{Which algorithms are used?}
 	 What kind of algorithm used is dependent on computational ability and determined on what kind of technology
-	 implemented within the AV. Be it GPS, LIDAR
+	 implemented within the AV. Be it GPS, LIDAR or any similar technology.
 
 	 % # TODO: Diskusjon
 	 % Refleksjoner rundt problemstillinger, termer etc.
