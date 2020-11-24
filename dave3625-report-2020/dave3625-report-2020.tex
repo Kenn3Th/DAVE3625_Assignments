@@ -433,8 +433,8 @@
 		 % Nevralnett etc.
 \section{Theory}
  \subsection{Technology}
- A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
- and nonautonomous.
+	 A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
+	 and nonautonomous.
 	 \subsubsection{Real Time Operating System}
 		 Cars today rely on numbers of sensors to acquire information about their surroundings.
 		 The velocity, GPS, proximity to obstacles, temperature etc. This sensors communicate to certain
@@ -453,10 +453,41 @@
 		 certain limits. The RTOS performance will degrade if tasks are never done within deadline and
 		 would be useless. Examples here can be audio-visual-systems for entertainment, games and general purpose
 		 OS's like Windows, Ubuntu and iOS.
-\subsubsection{LIDAR}
-\subsubsection{GPS}
+	 \subsubsection{Camera}
+		 Cameras are indispensable for providing visual information and feedback to any system,
+		 in regards to its environment. In comparison to radar, LIDAR or similar sensors,
+		 cameras are affected by weather, dust and pollution.
+	 \subsubsection{RADAR}
+		 Radio Detection and Ranging (RADAR) can complement the camera and is resistant to both
+		 pollution, weather and similar. It emits electromagnetic waves which reflects on obstacles
+		 and back to the RADAR. Distance, velocity and position (relative to the RADAR) can then
+		 be calculated with great accuracy. There are different types of RADAR and the most used
+		 is Frequency-modulated continuous Wave (FMCW).
+
+		 \paragraph{FMWC}
+		 Allows the detection of small objects with the use of the Doppler effect. Since the
+		 known transmitted frequency is known, stable and slow-moving objects can be filtered
+		 out of the receiving signal. This reduces interference and increases the signal to noise
+		 ratio.
+	 \subsubsection{LIDAR}
+		 Goes under many names. One of them is "Laser Imaging and Ranging".
+		 This method utilizes laser beams and their reflection of of objects to measure distance.
+		 Also called ranging. The lidar's output would be point cloud data, which provides all the
+		 necessary information, to a software for detecting and determining where potential
+		 obstacles and objects are located in the environment.
+	 \subsubsection{GPS}
+		 A property of the United States Government. GPS is acronym for "Global Positioning System".
+		 It utilizes satellites for positioning. The system is freely available for anyone with a GPS
+		 receiver and has global coverage. Several other systems from other countries exists.
+		 As long as a GPS receiver has line of sight to four or more satellites, a pinpoint of
+		 position can happen with an accuracy of two meters or less.
 
  \subsection{Autonomy}
+	 The definition for autonomy would be the capacity to make informed and uncoerced decisions,
+	 based on some set of information. From a more metaphoric perspective, this would be that
+	 an entity, person or organization would be given self-governing capacity. This to make
+	 decisions not forced on it by a higher ranking entity, regime, person etc.
+
  \subsection{Machine learning}
 	Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of computer algorithms 
 	that improves automaticcaly through experience". %\cite{wikopedia:ML}. 
@@ -484,10 +515,16 @@
 		 % Går dypere inn i temaene som er nevnt introduksjon
 		 % Tekniske termer skal forklares i teoribiten og blir refert dit
 		 % antas videre at leseren vet dette
-\section{Main content} % # IN PROGRESS: Make title
+\section{Implementation of AI in AV's} % # IN PROGRESS: Make title
  \subsection{Which algorithms are used?}
 	 What kind of algorithm used is dependent on computational ability and determined on what kind of technology
-	 implemented within the AV. Be it GPS, LIDAR
+	 implemented within the AV. Be it GPS, LIDAR or any similar technology. There is no problem
+	 implementing all sorts of algorithms, but a factor that limits range of viable candidates
+	 are, the beforementioned demands and also demands in regards to safety and security.
+	 In this part we will discuss the implementation of AI in light of object-recognition.
+
+	\subsection{}
+
 
 	 % # TODO: Diskusjon
 	 % Refleksjoner rundt problemstillinger, termer etc.
