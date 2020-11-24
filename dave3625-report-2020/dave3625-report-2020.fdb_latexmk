@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex dave3625-report-2020"] 1605718349 "dave3625-report-2020.aux" "dave3625-report-2020.bbl" "dave3625-report-2020" 1605718350
+["bibtex dave3625-report-2020"] 1606226276 "dave3625-report-2020.aux" "dave3625-report-2020.bbl" "dave3625-report-2020" 1606226278
   "C:/Program Files/MiKTeX/bibtex/bst/ieeetran/ieeetran.bst" 1440618969 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "dave3625-report-2020.aux" 1605718350 2672 2ea626b2c6342701dbd8b5460c10efc2 "pdflatex"
-  "final_report.bib" 1605718332 3943 547d2b60dba0f24bfcedfb591c8e5b49 ""
+  "dave3625-report-2020.aux" 1606226277 3250 fe37d6be0530ee6f31dea2862f2e07df "pdflatex"
+  "final_report.bib" 1605720694 3943 547d2b60dba0f24bfcedfb591c8e5b49 ""
   (generated)
   "dave3625-report-2020.bbl"
   "dave3625-report-2020.blg"
-["pdflatex"] 1605718349 "c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex" "dave3625-report-2020.pdf" "dave3625-report-2020" 1605718350
+["pdflatex"] 1606226276 "c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex" "dave3625-report-2020.pdf" "dave3625-report-2020" 1606226278
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768654 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768654 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -31,11 +31,11 @@
   "C:/Program Files/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/sibeo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1599637935 10040711 0ee032b71e75166ab6bc74542af00bf9 ""
   "C:/Users/sibeo/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1599213939 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex" 1605718321 25752 da5e7c90adc2d07eae16d992b98e5162 ""
-  "dave3625-report-2020.aux" 1605718350 2672 2ea626b2c6342701dbd8b5460c10efc2 "pdflatex"
-  "dave3625-report-2020.bbl" 1605718349 1623 c93dd8c434542cbbd10246b3d9499908 "bibtex dave3625-report-2020"
-  "dave3625-report-2020.tex" 1605718321 25752 da5e7c90adc2d07eae16d992b98e5162 ""
+  "c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex" 1606226272 28371 73f0d00d55f708e33072842dfb2cb62d ""
+  "dave3625-report-2020.aux" 1606226277 3250 fe37d6be0530ee6f31dea2862f2e07df "pdflatex"
+  "dave3625-report-2020.bbl" 1606226276 1623 c93dd8c434542cbbd10246b3d9499908 "bibtex dave3625-report-2020"
+  "dave3625-report-2020.tex" 1606226272 28371 73f0d00d55f708e33072842dfb2cb62d ""
   (generated)
-  "dave3625-report-2020.log"
-  "dave3625-report-2020.aux"
   "dave3625-report-2020.pdf"
+  "dave3625-report-2020.aux"
+  "dave3625-report-2020.log"
