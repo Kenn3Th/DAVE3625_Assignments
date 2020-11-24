@@ -490,11 +490,13 @@
 	 
 % # IN PROGRESS: Maskin Læring
  \subsection{Machine learning}
-	Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of computer algorithms 
-	that improves automaticcaly through experience". %\cite{wikopedia:ML}. 
-	These algorithms builds a model based on huge amount of data, it is often separated in to "training data" and "testing data".
-	the ratio is often 70\% "training data" and 30\% "test data". Said in simpler terms it makes the machine/system learn from experience
-	without beeing explicitly programmed.  
+	Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of 
+	computer algorithms that improves automaticcaly through experience". %\cite{wikopedia:ML}. 
+	Said in simpler terms it makes the machine/system learn from experience without beeing explicitly 
+	programmed, but to do so it need a lot of data. This data set is divided in to "training data" and 
+	"testing data", where the "training data" obviously is used to train the model and the "testing data" 
+	is used to check the accuracy of the model. 
+	
 	ML is often devided into three categories:
 	\begin{enumerate}
 		\item Supervised learning:\\
@@ -502,8 +504,8 @@
 		a "supervisor" watching over the whole prosess. The training data consists of input that is paired with the correct output and during 
 		training the algorithm will search for patterns that correlates to the desired output. After training you get a model that takes new 
 		unseen input data (of the same kind) and determine which label this new inputs classifies as based on the training data. The whole essence 
-		of this kind of algorithms is to predict the correct label for newly presented inputs on past data and kan be written on its simplest form as 
-		$$ Y = f(x)$$ where Y is the desired output from the mapping function f with value x. Supervised learning can be devided in to two categories
+		of this kind of algorithms is to predict the correct label for newly presented inputs based on past data. On it's simplest form it can be written as
+		$$ Y = f(x) $$ where $Y$ is the desired output from the mapping function $f$ with value $x$. Supervised learning can be devided in to two categories
 		\begin{itemize}
 			\item \textbf{Classification}\\
 			This algorithm is typically used to put the new data into a category or a class based on it's training data. Under training this algorithm 
