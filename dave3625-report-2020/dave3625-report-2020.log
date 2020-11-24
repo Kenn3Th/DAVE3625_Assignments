@@ -1,21 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.9)  18 NOV 2020 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.9)  24 NOV 2020 22:38
 entering extended mode
-**c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
-(c:/Users/sibeo/OneDrive/education-s/oslomet/DAVE3625/DAVE3625/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
+(/Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07> ("C:\Program Files\MiKTeX\tex/latex/ieeetran\IEEEtran.cls"
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen134
 \@IEEEtrantmpdimenB=\dimen135
 \@IEEEtrantmpdimenC=\dimen136
-\@IEEEtrantmpcountA=\count168
-\@IEEEtrantmpcountB=\count169
-\@IEEEtrantmpcountC=\count170
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
 \@IEEEtrantmptoksA=\toks15
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-("C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -77,33 +80,33 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen150
 \IEEEiedmathlabelsep=\dimen151
 \IEEEiedtopsep=\skip47
-\c@section=\count171
-\c@subsection=\count172
-\c@subsubsection=\count173
-\c@paragraph=\count174
-\c@IEEEsubequation=\count175
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\c@figure=\count176
-\c@table=\count177
-\@IEEEeqnnumcols=\count178
-\@IEEEeqncolcnt=\count179
-\@IEEEsubeqnnumrollback=\count180
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
 \@IEEEquantizeheightA=\dimen152
 \@IEEEquantizeheightB=\dimen153
 \@IEEEquantizeheightC=\dimen154
 \@IEEEquantizeprevdepth=\dimen155
-\@IEEEquantizemultiple=\count181
+\@IEEEquantizemultiple=\count180
 \@IEEEquantizeboxA=\box45
 \@IEEEtmpitemindent=\dimen156
 \IEEEPARstartletwidth=\dimen157
-\c@IEEEbiography=\count182
+\c@IEEEbiography=\count181
 \@IEEEtranrubishbin=\box46
-) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count183
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count182
 \l__pdf_internal_box=\box47
-) (dave3625-report-2020.aux)
+) (/Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.aux)
 \openout1 = `dave3625-report-2020.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 328.
@@ -122,7 +125,32 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 328.
 LaTeX Font Info:    ... okay on input line 328.
 
 -- Lines per column: 56 (exact).
-(dave3625-report-2020.bbl)
+
+LaTeX Warning: Citation `IEEE:AutonomousCars' on page 1 undefined on input line 407.
+
+
+LaTeX Warning: Citation `Volvo2020' on page 1 undefined on input line 408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+No file dave3625-report-2020.bbl.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -134,22 +162,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/sibeo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[2
 
+] (/Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.aux)
 
-] (dave3625-report-2020.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1207 strings out of 481212
- 24228 string characters out of 2915728
- 266776 words of memory out of 3000000
- 16858 multiletter control sequences out of 15000+200000
- 564455 words of font info for 77 fonts, out of 3000000 for 9000
+ 1194 strings out of 480608
+ 24302 string characters out of 5903631
+ 265612 words of memory out of 5000000
+ 17150 multiletter control sequences out of 15000+600000
+ 562812 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 27i,7n,25p,320b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dave3625-report-2020.pdf (1 page, 49974 bytes).
+ 27i,7n,21p,323b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.pdf (2 pages, 52024 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
