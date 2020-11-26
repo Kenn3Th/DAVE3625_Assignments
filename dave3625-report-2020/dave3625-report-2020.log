@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.9)  24 NOV 2020 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.9)  26 NOV 2020 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -135,19 +135,24 @@ LaTeX Warning: Citation `Volvo2020' on page 1 undefined on input line 408.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
- []
+LaTeX Warning: Citation `wiki:ML' on page 2 undefined on input line 494.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 508.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 508.
+
+LaTeX Warning: Citation `towardsDataSience:supervised' on page 2 undefined on input line 517.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
-
- []
+LaTeX Warning: Citation `deepAI:UL' on page 2 undefined on input line 522.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+LaTeX Warning: Citation `wiki:UL' on page 2 undefined on input line 522.
 
- []
+
+LaTeX Warning: Citation `wiki:CA' on page 2 undefined on input line 527.
 
 No file dave3625-report-2020.bbl.
 
@@ -167,18 +172,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1194 strings out of 480608
- 24302 string characters out of 5903631
+ 1196 strings out of 480608
+ 24330 string characters out of 5903631
  266612 words of memory out of 5000000
- 17150 multiletter control sequences out of 15000+600000
+ 17152 multiletter control sequences out of 15000+600000
  562812 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  27i,7n,21p,323b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.pdf (2 pages, 54873 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/Awesome/Documents/Skole/El.ing/5.semester/DAVE3625/testing/DAVE3625_Assignments/dave3625-report-2020/dave3625-report-2020.pdf (2 pages, 82374 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
