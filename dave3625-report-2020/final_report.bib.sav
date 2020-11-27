@@ -10,38 +10,7 @@
   url          = {https://towardsdatascience.com/ai-and-the-vehicle-went-autonomous-e176c73239c6}
 }
 
-@inproceedings{5940562,
-  author    = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
-  booktitle = {2011 IEEE Intelligent Vehicles Symposium (IV)},
-  title     = {Towards fully autonomous driving: Systems and algorithms},
-  year      = {2011},
-  volume    = {},
-  number    = {},
-  pages     = {163-168},
-  doi       = {10.1109/IVS.2011.5940562}
-}
-
-@misc{IEEE:AutonomousCars,
-  author    = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
-  title     = {Towards fully autonomous driving: Systems and algorithms},
-  year      = {2011},
-  booktitle = {2011 IEEE Intelligent Vehicles Symposium (IV)},
-  doi       = {10.1109/IVS.2011.5940562},
-  pages     = {163-168}
-}
-
-@misc{Volvo2020,
-  author       = {Volvo},
-  howpublished = {Web},
-  title        = {Volvo’s Vera autonomous trucks will transport DFDS goods on public roads},
-  year         = {2020},
-  abstract     = {Volvo has announced a commercial first for its electric autonomous trucks. The Swedish automotive titan has partnered with ferry and logistics giant DFDS to use Volvo Trucks’ “Vera” to transport goods between a logistics hub and a port in Sweden.},
-  keywords     = {volvo},
-  owner        = {Volvo},
-  url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads has announced a commercial,and a port in Sweden.}
-}
-
-@Article{Bugala2018,
+@article{Bugala2018,
   author    = {Michał Bugała},
   journal   = {ResearchGate},
   title     = {Algorithms Applied in Autonomous Vehicle Systems},
@@ -59,7 +28,38 @@ key algorithms of autonomous vehicles described in detail in the literature cite
 a starting point for further work on an autonomous vehicle to be carried out at OBRUM.},
   owner     = {Michał Bugała},
   timestamp = {2020-11-18},
-  url       = {https://www.researchgate.net/publication/331866114_ALGORITHMS_APPLIED_IN_AUTONOMOUS_VEHICLE_SYSTEMS},
+  url       = {https://www.researchgate.net/publication/331866114_ALGORITHMS_APPLIED_IN_AUTONOMOUS_VEHICLE_SYSTEMS}
+}
+
+@misc{IEEE:AutonomousCars,
+  author    = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
+  title     = {Towards fully autonomous driving: Systems and algorithms},
+  year      = {2011},
+  booktitle = {2011 IEEE Intelligent Vehicles Symposium (IV)},
+  doi       = {10.1109/IVS.2011.5940562},
+  pages     = {163-168}
+}
+
+@Misc{Sawers2019,
+  author       = {Paul Sawers},
+  howpublished = {\url{https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/}},
+  note         = {Accessed 27-11-2020},
+  title        = {Volvo’s Vera autonomous trucks will transport DFDS goods on public roads},
+  year         = {2019},
+  journal      = {VentureBeat},
+  url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/},
+}
+
+@Misc{Wikipedia2020-ML,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Machine_learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Machine learning},
+  year         = {2020},
+  abstract     = {Machine learning (ML) is the study of computer algorithms that improve automatically through experience.[1] It is seen as a subset of artificial intelligence. Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.},
+  timestamp    = {27-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Machine_learning},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

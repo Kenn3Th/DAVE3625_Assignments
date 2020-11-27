@@ -102,7 +102,7 @@
 
 % *** CITATION PACKAGES ***
 %
-%\usepackage{cite}
+\usepackage{cite}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of IEEE. Loading the cite package will
@@ -304,15 +304,13 @@
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-%\usepackage{url}
+\usepackage{url}
 % url.sty was written by Donald Arseneau. It provides better support for
 % handling and breaking URLs. url.sty is already installed on most LaTeX
 % systems. The latest version and documentation can be obtained at:
 % http://www.ctan.org/tex-archive/macros/latex/contrib/url/
 % Basically, \url{my_url_here}.
-
-
-
+\usepackage[hidelinks]{hyperref}
 
 % *** Do not adjust lengths that control margins, column widths, etc. ***
 % *** Do not use packages that alter fonts (such as pslatex).         ***
@@ -330,7 +328,7 @@
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 % Do not put math or special symbols in the title.
-\title{Report on AI in Autonomous Vehicles} % # IN PROGRESS: Tittel
+\title{Ethics of Artificial Intelligence in Autonomous Vehicles}
 
 
 % author names and affiliations
@@ -405,7 +403,7 @@
  The technology in automobile industry has made some remarkable progress the last century. They have managed to
  make safe, reliable and affordable vehicles. The last couple of decades have seen significant advancements
  in computation and communication technologies, and consequentially autonomous vehicles (AV) are now becoming a reality \cite{IEEE:AutonomousCars}.
- Several prototypes exists today. Among others, Volvo have started implementing autonomous trucks that deliver goods \cite{Volvo2020}.
+ Several prototypes exists today. Among others, Volvo have started implementing autonomous trucks that deliver goods \cite{Sawers2019}.
  \subsection{Autonomous vehicles}
 	 \subsubsection{What is it?}
 		 A definition of autonomous vehicle (AV) can be a vehicle which senses it's environment with little or no human input or interaction
@@ -428,9 +426,6 @@
 
 	 \subsubsection{Terms}
 
-		 % # TODO: Teoridelen
-		 % Forklarer inngående og litt dypere tekniske termer.
-		 % Nevralnett etc.
 \section{Theory}
  \subsection{Technology}
 	 A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
@@ -487,76 +482,62 @@
 	 based on some set of information. From a more metaphoric perspective, this would be that
 	 an entity, person or organization would be given self-governing capacity. This to make
 	 decisions not forced on it by a higher ranking entity, regime, person etc.
-	 
-% # IN PROGRESS: Maskin Læring
+
  \subsection{Machine learning}
-	Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of 
-	computer algorithms that improves automaticcaly through experience" \cite{wiki:ML}.
-	Said in simpler terms it makes the machine/system learn from experience without beeing explicitly 
-	programmed, but to do so it need a lot of data. This data set is divided in to "training data" and 
-	"testing data", where the "training data" obviously is used to train the model and the "testing data" 
-	is used to check the accuracy of the model. 
-	
-	ML is often devided into three categories:
-	\begin{enumerate}
-		\item \textbf{Supervised learning:}\\
-		This type of algorithms is designed to learn by example, and the idea behind is that training this type of algorithms is like having 
-		a "supervisor" watching over the whole prosess. The training data consists of input that is paired with the correct output and during 
-		training the algorithm will search for patterns that correlates to the desired output. After training you get a model that takes new 
-		unseen input data (of the same kind) and determine which label this new inputs classifies as based on the training data. The whole essence 
-		of this kind of algorithms is to predict the correct label for newly presented inputs based on past data. On it's simplest form it can be written as
-		$$ Y = f(x) $$ where $Y$ is the desired output from the mapping function $f$ with value $x$. Supervised learning can be devided in to two categories
-		\begin{itemize}
-			\item \textbf{Classification}\\
-			This algorithm is typically used to put the new data into a category or a class based on it's training data. Under training this algorithm 
-			will be given data points with an assigned category. The most common example is filtering out spam emails.
-			\item \textbf{Regression}\\
-			This algorithm is a predictive statistical process where the model tries to find relationship between dependent and independent variables 
-			in the data set. The goal of a regression algorithm is to predict a continuous number such as sales, income, and test scores.
-		\end{itemize}
-		%\cite{towardsDataSience:SL}
+	 Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of
+	 computer algorithms that improves automaticcaly through experience"
+	 Said in simpler terms it makes the machine/system learn from experience without beeing explicitly
+	 programmed, but to do so it need a lot of data. This data set is divided in to "training data" and
+	 "testing data", where the "training data" obviously is used to train the model and the "testing data"
+	 is used to check the accuracy of the model.
 
-		\item \textbf{Unsupervised learning:}\\
-		In contrary to supervised learning that needs to train it's algorithms to recognize patterns in dataset with known labels, unsupervised learning 
-		is used on big dataset to recognize patterns in unlabeled dataset. In simpler terms this type of algorithm learns useful patterns and properties in 
-		the data structure in big datasets with no labels. The most used algorithm used in unsupervised learing is cluster analysis. %  \cite{deepAI:UL} \cite{wiki:UL}. 
+	 ML is often devided into three categories:
+	 \begin{enumerate}
+		 \item \textbf{Supervised learning:}\\
+		       This type of algorithms is designed to learn by example, and the idea behind is that training this type of algorithms is like having
+		       a "supervisor" watching over the whole prosess. The training data consists of input that is paired with the correct output and during
+		       training the algorithm will search for patterns that correlates to the desired output. After training you get a model that takes new
+		       unseen input data (of the same kind) and determine which label this new inputs classifies as based on the training data. The whole essence
+		       of this kind of algorithms is to predict the correct label for newly presented inputs based on past data. On it's simplest form it can be written as
+		       $$ Y = f(x) $$ where $Y$ is the desired output from the mapping function $f$ with value $x$. \cite{Wikipedia2020-ML} Supervised learning can be devided in to two categories
+		       \begin{itemize}
+			       \item \textbf{Classification}\\
+			             This algorithm is typically used to put the new data into a category or a class based on it's training data. Under training this algorithm
+			             will be given data points with an assigned category. The most common example is filtering out spam emails.
+			       \item \textbf{Regression}\\
+			             This algorithm is a predictive statistical process where the model tries to find relationship between dependent and independent variables
+			             in the data set. The goal of a regression algorithm is to predict a continuous number such as sales, income, and test scores.
+		       \end{itemize}
+		       %\cite{towardsDataSience:SL}
 
-		\paragraph{Cluster analysis}
-		Cluster analysis, also called clustering, is used to group datasets with shared properties in order to find algorithmic relationships. Each group made is 
-		called a cluster hence the name cluster analysis or clustering, but the name "cluster" can not be precisely defined. Since the notion cluster isn't well defined
-		there are many different clusering algorithms out there, but they all have one thing in common they group data %\cite{wiki:CA}. 
+		 \item \textbf{Unsupervised learning:}\\
+		       In contrary to supervised learning that needs to train it's algorithms to recognize patterns in dataset with known labels, unsupervised learning
+		       is used on big dataset to recognize patterns in unlabeled dataset. In simpler terms this type of algorithm learns useful patterns and properties in
+		       the data structure in big datasets with no labels. The most used algorithm used in unsupervised learing is cluster analysis. %  \cite{deepAI:UL} \cite{wiki:UL}.
 
-		\item \textbf{Reinforcement learning:}\\
-		Reinforcement learning is learning by interacting with an environment.
+		       \paragraph{Cluster analysis}
+		       Cluster analysis, also called clustering, is used to group datasets with shared properties in order to find algorithmic relationships. Each group made is
+		       called a cluster hence the name cluster analysis or clustering, but the name "cluster" can not be precisely defined. Since the notion cluster isn't well defined
+		       there are many different clusering algorithms out there, but they all have one thing in common they group data %\cite{wiki:CA}.
 
-	\end{enumerate}
+		 \item \textbf{Reinforcement learning:}\\
+		       Reinforcement learning (RL) agent is learning by interacting with an environment, in other words it learns from the consequences of its actions. The RL agent can
+		       do this because of a numerical reward system that encodes the sucsessof an action's outcome. The RL agent seeks to learn how to find the actions that accumulate the
+		       most reward ovr time.. So it learns from exploring the envirnment and decision making
 
+	 \end{enumerate}
 
-	
-	 
-	 \subsubsection{Deep learning}
- \subsection{Algorithms}
-	 \subsubsection{Neural networks}
-
-		 % # TODO: Hoveddel
-		 % Går dypere inn i temaene som er nevnt introduksjon
-		 % Tekniske termer skal forklares i teoribiten og blir refert dit
-		 % antas videre at leseren vet dette
-\section{Implementation of AI in AV's} % # IN PROGRESS: Make title
+\section{Implementation of AI in AV's}
+ % # TODO: Hoveddel
+ % Går dypere inn i temaene som er nevnt introduksjon
+ % Tekniske termer skal forklares i teoribiten og blir refert dit
+ % antas videre at leseren vet dette
  \subsection{Which algorithms are used?}
 	 What kind of algorithm used is dependent on computational ability and determined on what kind of technology
-	 implemented within the AV. Be it GPS, LIDAR or any similar technology. There is no problem
+	 implemented within the AV. Be it GPS, LIDAR or similar. There is no problem
 	 implementing all sorts of algorithms, but a factor that limits range of viable candidates
 	 are, the beforementioned demands and also demands in regards to safety and security.
-	 In this part we will discuss the implementation of AI in light of object-recognition.
 
-	\subsection{}
-
-
-	 % # TODO: Diskusjon
-	 % Refleksjoner rundt problemstillinger, termer etc.
-	 % Fokuser på etikk
-\section{Discussion}
  \subsection{Safety}
  \subsection{Implementation}
  \subsection{GDPR}
