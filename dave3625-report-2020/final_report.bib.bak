@@ -62,6 +62,54 @@ a starting point for further work on an autonomous vehicle to be carried out at 
   url       = {https://www.researchgate.net/publication/331866114_ALGORITHMS_APPLIED_IN_AUTONOMOUS_VEHICLE_SYSTEMS},
 }
 
+@Misc{wiki:ML,
+  month     = {Nov},
+  title     = {Machine learning},
+  year      = {2020},
+  journal   = {Wikipedia},
+  publisher = {Wikimedia Foundation},
+  url       = {https://en.wikipedia.org/wiki/Machine_learning},
+}
+
+@Misc{towardsDataSience:SL,
+  author       = {Wilson, Aidan},
+  howpublished = {Web},
+  month        = {Oct},
+  title        = {A Brief Introduction to Supervised Learning},
+  year         = {2019},
+  journal      = {Medium},
+  publisher    = {Towards Data Science},
+  url          = {https://towardsdatascience.com/a-brief-introduction-to-supervised-learning-54a3e3932590},
+}
+
+@Misc{deepAI:UL,
+  month   = {Aug},
+  title   = {Unsupervised Learning},
+  year    = {2020},
+  journal = {DeepAI},
+  url     = {https://deepai.org/machine-learning-glossary-and-terms/unsupervised-learning},
+}
+
+@Misc{wiki:UL,
+  howpublished = {Web},
+  month        = {Nov},
+  title        = {Unsupervised learning},
+  year         = {2020},
+  journal      = {Wikipedia},
+  publisher    = {Wikimedia Foundation},
+  url          = {https://en.wikipedia.org/wiki/Unsupervised_learning},
+}
+
+@Misc{wiki:CA,
+  howpublished = {Web},
+  month        = nov,
+  title        = {Cluster analysis},
+  year         = {2020},
+  journal      = {Wikipedia},
+  publisher    = {Wikimedia Foundation},
+  url          = {https://en.wikipedia.org/wiki/Cluster_analysis},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectoryLatex-sibeo-sibeov-win10-lenovot470:C:\\Users\\sibeo\\OneDrive\\education-s\\oslomet\\DAVE3625\\DAVE3625\\DAVE3625_Assignments\\dave3625-report-2020;}
