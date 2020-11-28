@@ -529,37 +529,26 @@
 
 	\subsection{Semantic image segmentation}
 		Partitioning a digital image into multiple segments (sets of pixels) based on some charistics is image segmentation. Semantic image segmentation is when we assign a class to each 
-		pixel in the image \cite{towardsDataSience:SIS}. This technique uses the unsupervised learning category in ML along with NN (this is also called deep learing) to partitioning the image and classifying the pixels. 
+		pixel in the image \cite{towardsDataSience:SIS}. This technique uses the unsupervised learning category in ML along with NN (this is also called deep learing) to partitioning the image 
+		and classifying the pixels. 
 
 
 \section{Implementation of AI in AV's and it's consequences}
 RTOS are essential software's used in our daily lifes. They are implemented in between the 
 hardware abstraction layer and the user application interfaces. They handle all the tasks, semaphores and
-how these are priorites. This is why they are implemented in AV's, and every other system which needs handling
+how these are prioritesed. This is why they are implemented in AV's, and every other system which needs handling
 of time- and safetycritical objectives.
  % # IN PROGRESS: Hovedel
  % Går dypere inn i temaene som er nevnt introduksjon
  % Tekniske termer skal forklares i teoribiten og blir refert dit
  % antas videre at leseren vet dette
-\subsection{Implementation}	
-	% How is AI/ algorithms implemented in AV's
- \subsubsection{Which algorithms are used?}
-	What kind of algorithm used is dependent on computational ability and determined on what kind of technology
-	implemented within the AV. Be it GPS, LIDAR or similar. There is no problem
-	implementing all sorts of algorithms, but a factor that limits range of viable candidates
-	are, the beforementioned demands and also demands in regards to safety and security.
- 
- \subsubsection{Semantic image segmentation}
-	An essential part of a modern AV's driving system, for navigating through it's surroundings 
-	and action handling, is semantic image segmentation. Their excellent performance in recognition
-	makes this technique optimal for various AV implementations\cite{CVPR}. Unfortunately the the technique per now,
-	is computationally quite costly and therefor not implemented in practice.\cite{Bugala2018}
 
-	Instead predefined features from images are used in simple driverassisted functions like 
-	recognition of road signs, road markings and traffic lights. So there is no real-time training 
-	happening in the vehicles system as it drives.
- 
- \subsection{Why do we use AI in AV's?}
+ \subsection{Why do we use AI in vehicles?}
+	We need to go 30-40 years back to find a vehicle that did not use any kind of AI, we can say that the vehicle was without a "brain". 
+	The vehicles where purely mechanic and the human behind the "steeringwheel" was the one in control, the "brain" of the vehicle. 
+	Take cars as an example, there where no anti-lock breaking system (ABS), electronical stability control (ESC), cruise control, detection for tire pressure
+	the list goes on. The reason we use AI in vehicles is to make the vehicle safer, not only for the driver but for everybody. %Føler at setningen er halv ferdig prøv gjerne å fullfør 
+
 	As a thought experiment, AI could be implemented with the intention of detecting all possible 
 	obstacles and objects in an environment. Ranging from traffic lights and road signs, to humans,
 	houses, animals and so on. The insentive would be the safety aspect of a traffic environment. 
@@ -569,25 +558,73 @@ of time- and safetycritical objectives.
 	AV's far more optimal for collective transport, and also a tremendous supplement when it comes to 
 	assistive functions in human operated vehicles.
 
+	If we take a look at modern cars, this kind of AI is allready in use. There is for example a city safe systems that 
+	helps the driver avoid collision in small velocities. This system uses lidar and cameras along with object detection technology 
+	to detect if there is a pedestrian or even an animal entering it's lane, or just to avoid collision in slow going queues. 
+	We are actually not so far away from beeing able to have vehicles that can be fully autonomous as explained in the thought experiment. 
+
+	Allready this year (2020) 60 countries, including Norway, have reached a milestone in mobility with the adoption of a United Nations Economic 
+	Commission for Europe (UNECE) regulation that will allow for safer introduction for AV's in certain traffic situastions. In this regulation 
+	there is given strict requirements for Automated Lane Keeping Systems (ALKS). This new regulation therfore marks an important step towards 
+	the further deployment of AV's in the future, and helps realize the vision in the thought experiment for safer, more sustainable mobility for 
+	everyone. \cite{UNECE:LKS}
+
+\subsection{Implementation}	
+	% How is AI/ algorithms implemented in AV's
+	\subsubsection{Which algorithms are used?}
+		What kind of algorithm used is dependent on computational ability and determined on what kind of technology
+		implemented within the AV. Be it GPS, LIDAR or similar. There is no problem
+		implementing all sorts of algorithms, but a factor that limits range of viable candidates
+		are, the beforementioned demands and also demands in regards to safety and security.
+	
+	\subsubsection{Semantic image segmentation}
+		An essential part of a modern AV's driving system, for navigating through it's surroundings 
+		and action handling, is semantic image segmentation. Their excellent performance in recognition
+		makes this technique optimal for various AV implementations\cite{CVPR}. Unfortunately the the technique per now,
+		is computationally quite costly and therefor not implemented in practice.\cite{Bugala2018}
+
+		Instead predefined features from images are used in simple driverassisted functions like 
+		recognition of road signs, road markings and traffic lights. So there is no real-time training 
+		happening in the vehicles system as it drives.
+
  \subsection{Ethics}
 	\subsubsection{Evaluation}
-	We will briefly discuss how semantic image segmentation is implemented
-	in AV's and some of it's effects and consequences. Certain thought experiments and 
-	future conjectures will be utilized to reveal certain ethical and safety aspects which
-	mus be critically evaluated when considering deploying AI into dailiy life autonomous vehicles.
+		We will briefly discuss how semantic image segmentation is implemented
+		in AV's and some of it's effects and consequences. Certain thought experiments and 
+		future conjectures will be utilized to reveal certain ethical and safety aspects which
+		mus be critically evaluated when considering deploying AI into dailiy life AV.
 
 	\subsubsection{Decisions}
-	How would AI decide which action to take when it comes to a life and death situation. Certain 
-	cornerstone examples could be 
+		How would AI decide which action to take when it comes to a life and death situation. Certain 
+		cornerstone examples could be to hit a child or an elderly person. Or the vehicle has 5 people in it and is on the collision course
+		with one person, should it hit an kill the one person or drive off the road potentially killing every one in the vehicle? 
+		This kind of edge problem all though important to think about is in an engineering stand point unnecassery. Why not try avoid a situation 
+		like this all together? This kind of dilemmas has as the assumption that the car only have two option when in reality it would have infinite.
+		That the vehicle has so high velocity it could'nt brake down to a speed that would'nt kill anyone is also unprobable in this scenario \cite{IEEE:ethics}. 
+		The easy solution to this problem is to have the vehicle have a safe velocity in areas that these scenarios are probable, and therfore a city safe system
+		that is in modern vehicles today would take care of that problem.
+
+		We should'nt discard these kinds of edge problems all togehter, it is very important to have in mind when developing AV technology. We should'nt limit the 
+		vehicle to only two choices but rather have many decision to choose from and then look for the answer in the statistics. With this statistical outcome we as 
+		a society have to consider how we want to distribuate the fatalities between the passangers and the pedestrians.
+		
+
 	% Face recognition.
 	% Recognize old from young? 
 	% How to decide safest outcome of given lifethreatening situation?
  
- \subsection{GDPR}
-	% Face recognition
+
 
 \section{Conclusion}
-% # TODO: Konklusjon
+% # IN PROGRESS: Konklusjon
+	The end goal of implementing AV's should always be to minimize the risk and fatalities of travelig along the roads or streets in the cities. That is also why 
+	edge problem, trolley dilemmas is important to think about and should be talked about to make the society aware of the risks. But it shoud'nt be suffocating all
+	the good that comes out of implementing AV's. City safe system that is used in vehicles today along with brake technology makes it alot safer for pedestrians to 
+	travel along the road side where the speedlimit is below 40 km/h. I am posetive that this technology will only get better and makes the future for AV's brighter.
+	We have this year already come to level 3 AV's with the UNECE regualtion for ALKS, we still have to pay atention on the roads and be ready to interfiere if something
+	goes wrong.  
+
+
 
  % Example for rightjustified fill:
  % \hfill mds

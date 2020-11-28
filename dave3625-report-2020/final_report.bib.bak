@@ -178,16 +178,31 @@ a starting point for further work on an autonomous vehicle to be carried out at 
   url          = {https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8},
 }
 
-@Misc{Scholar:DL,
+@Misc{pedia:NN,
   author       = {Scholarpedia},
-  howpublished = {\url{http://www.scholarpedia.org/article/Deep_Learning}},
+  howpublished = {\url{https://www.investopedia.com/terms/n/neuralnetwork.asp}},
   month        = dec,
   note         = {Accessed 28-11-2020},
   title        = {Reinforcement learning},
   year         = {2020},
-  abstract     = {Deep Learning has revolutionised Pattern Recognition and Machine Learning. It is about credit assignment in adaptive systems with long chains of potentially causal links between actions and consequences.},
+  abstract     = {A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature. Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria. The concept of neural networks, which has its roots in artificial intelligence, is swiftly gaining popularity in the development of trading systems.},
   timestamp    = {28-11-2020},
-  url          = {http://www.scholarpedia.org/article/Deep_learning},
+  url          = {https://www.investopedia.com/terms/n/neuralnetwork.asp},
+}
+
+@Misc{UNECE:LKS,
+  author       = {UNECE},
+  howpublished = {\url{https://www.unece.org/info/media/presscurrent-press-h/transport/2020/un-regulation-on-automated-lane-keeping-systems-is-milestone-for-safe-introduction-of-automated-vehicles-in-traffic/doc.html}},
+  month        = dec,
+  note         = {Accessed 28-11-2020},
+  title        = {Regulation on automated lane keeping systems},
+  year         = {2020},
+  abstract     = {Some 60 countries have reached a milestone in mobility with the adoption of a United Nations Regulation that will allow for the safe introduction of automated vehicles in certain traffic environments.},
+  timestamp    = {28-11-2020},
+  url          = {https://www.unece.org/info/media/presscurrent-press-h/transport/2020/un-regulation-on-automated-lane-keeping-systems-is-milestone-for-safe-introduction-of-automated-vehicles-in-traffic/doc.html},
+}
+
+@Article{,
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
