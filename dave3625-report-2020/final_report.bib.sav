@@ -98,6 +98,30 @@ a starting point for further work on an autonomous vehicle to be carried out at 
   url          = {https://deepai.org/machine-learning-glossary-and-terms/unsupervised-learning},
 }
 
+@Misc{Scholar:RL,
+  author       = {Scholarpedia},
+  howpublished = {\url{http://www.scholarpedia.org/article/Reinforcement_learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Reinforcement learning},
+  year         = {2020},
+  abstract     = {Reinforcement learning (RL) is learning by interacting with an environment. An RL agent learns from the consequences of its actions, rather than from being explicitly taught and it selects its actions on basis of its past experiences (exploitation) and also by new choices (exploration), which is essentially trial and error learning. The reinforcement signal that the RL-agent receives is a numerical reward, which encodes the success of an action's outcome, and the agent seeks to learn to select actions that maximize the accumulated reward over time. (The use of the term reward is used here in a neutral fashion and does not imply any pleasure, hedonic impact or other psychological interpretations.)},
+  timestamp    = {27-11-2020},
+  url          = {http://www.scholarpedia.org/article/Reinforcement_learning},
+}
+
+@Misc{towardsDataSience:SL,
+  author       = {Aidan Wilson},
+  howpublished = {\url{https://towardsdatascience.com/a-brief-introduction-to-supervised-learning-54a3e3932590}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Supervised learning},
+  year         = {2020},
+  abstract     = {Supervised learning is the most common subbranch of machine learning today. Typically, new machine learning practitioners will begin their journey with supervised learning algorithms. Therefore, the first of this three post series will be about supervised learning.},
+  timestamp    = {27-11-2020},
+  url          = {https://towardsdatascience.com/a-brief-introduction-to-supervised-learning-54a3e3932590},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectoryLatex-sibeo-sibeov-win10-lenovot470:C:\\Users\\sibeo\\OneDrive\\education-s\\oslomet\\DAVE3625\\DAVE3625\\DAVE3625_Assignments\\dave3625-report-2020;}
