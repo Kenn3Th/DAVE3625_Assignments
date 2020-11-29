@@ -50,7 +50,7 @@ a starting point for further work on an autonomous vehicle to be carried out at 
   url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/},
 }
 
-@Misc{Wikipedia2020,
+@Misc{Wikipedia2020-ML,
   author       = {Wikipedia},
   howpublished = {\url{https://en.wikipedia.org/wiki/Machine_learning}},
   month        = dec,
