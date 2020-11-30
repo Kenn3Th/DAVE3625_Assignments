@@ -381,8 +381,16 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 
-% # TODO: Sammendrag
 \begin{abstract}
+	There have been remarkable advancements in the automobile industry the last century, safe, reliable and affordable vehicles is now a reality.
+	Along with the progress in computation and communication we have been able to develop a real time operatin system (RTOS). RTOS makes it possible
+	to implement differnet types of technologies in vehicles like RADAR, LIDAR, GPS, AI etc and made autonomous vehicles (AV) a reality. AV's purpose is
+	not only to make it easier to travel, but safer as well. The end goal of AV's should always be to make it safer to travel on and along roads and
+	city streets. We should not forget to think about ethical dilemmas when developing AV technology, but we should not be restricted by them.
+	United Nations Economic Commission for Europe (UNECE) has this year (2020) made a regulation  that  will  allow  for  safer  introduction  for  AV’s
+	in certain traffic situastions. They have made a regulation where there is given strict requirements for Automated Lane Keeping Systems (ALKS) and we are
+	therfore now on level 3 in AV's. With this regulation makes me belive that the fully AV is not so far fetched in the near future.
+
 \end{abstract}
 
 
@@ -396,8 +404,6 @@
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-% # TODO: Introduksjon
-% # IN PROGRESS: Tekst mellom tittel og underoverskrift
 % Tekniske termer. Referer til i teoribiten.
 \section{Introduction}
  The technology in automobile industry has made some remarkable progress the last century. They have managed to
@@ -424,8 +430,6 @@
 		 This would make outcomes and outputs deterministic and easy to predict and consequentially present a good
 		 basis for development and optimization.
 
-	 \subsubsection{Terms}
-
 \section{Theory}
  \subsection{Technology}
 	 A brief presentation on certain technologies implemented in todays land based vehicles. Both autonomous
@@ -436,7 +440,7 @@
 		 modules that is connected to a operating system (OS). This is often a specialized form
 		 of OS. A so called Real Time Operating System (RTOS) makes up the central core and processor
 		 of the car. Within, all decisions based on data form the sensors are made and functions
-		 executed. Some aspects of RTOS are presented here.
+		 executed. Some aspects of RTOS are presented here.\cite{Wiki:RTOS}
 
 		 \paragraph{Hardt time RTOS}
 		 A deterministic RTOS. Meaning that the output of the RTOS should happen within a certain
@@ -457,7 +461,7 @@
 		 pollution, weather and similar. It emits electromagnetic waves which reflects on obstacles
 		 and back to the RADAR. Distance, velocity and position (relative to the RADAR) can then
 		 be calculated with great accuracy. There are different types of RADAR and the most used
-		 is Frequency-modulated continuous Wave (FMCW).
+		 is Frequency-modulated continuous Wave (FMCW).\cite{Wiki:RADAR}
 
 		 \paragraph{FMWC}
 		 Allows the detection of small objects with the use of the Doppler effect. Since the
@@ -469,7 +473,7 @@
 		 This method utilizes laser beams and their reflection of of objects to measure distance.
 		 Also called ranging. The lidar's output would be point cloud data, which provides all the
 		 necessary information, to a software for detecting and determining where potential
-		 obstacles and objects are located in the environment.
+		 obstacles and objects are located in the environment.\cite{Wiki:LIDAR}
 	 \subsubsection{GPS}
 		 A property of the United States Government. GPS is acronym for "Global Positioning System".
 		 It utilizes satellites for positioning. The system is freely available for anyone with a GPS
@@ -484,66 +488,151 @@
 	 decisions not forced on it by a higher ranking entity, regime, person etc.
 
  \subsection{Machine learning}
-	 Machine learning (ML) is a subset of artificial intelligence and by definition is "the study of
-	 computer algorithms that improves automaticcaly through experience"
+	 Machine learning (ML) is a subset of artificial intelligence (AI) and by definition is "the study of
+	 computer algorithms that improves automaticcaly through experience" \cite{Wiki:ML}.
 	 Said in simpler terms it makes the machine/system learn from experience without beeing explicitly
 	 programmed, but to do so it need a lot of data. This data set is divided in to "training data" and
 	 "testing data", where the "training data" obviously is used to train the model and the "testing data"
 	 is used to check the accuracy of the model.
 
 	 ML is often devided into three categories:
-	 \begin{enumerate}
-		 \item \textbf{Supervised learning:}\\
-		       This type of algorithms is designed to learn by example, and the idea behind is that training this type of algorithms is like having
-		       a "supervisor" watching over the whole prosess. The training data consists of input that is paired with the correct output and during
-		       training the algorithm will search for patterns that correlates to the desired output. After training you get a model that takes new
-		       unseen input data (of the same kind) and determine which label this new inputs classifies as based on the training data. The whole essence
-		       of this kind of algorithms is to predict the correct label for newly presented inputs based on past data. On it's simplest form it can be written as
-		       $$ Y = f(x) $$ where $Y$ is the desired output from the mapping function $f$ with value $x$. \cite{Wikipedia2020-ML} Supervised learning can be devided in to two categories
-		       \begin{itemize}
-			       \item \textbf{Classification}\\
-			             This algorithm is typically used to put the new data into a category or a class based on it's training data. Under training this algorithm
-			             will be given data points with an assigned category. The most common example is filtering out spam emails.
-			       \item \textbf{Regression}\\
-			             This algorithm is a predictive statistical process where the model tries to find relationship between dependent and independent variables
-			             in the data set. The goal of a regression algorithm is to predict a continuous number such as sales, income, and test scores.
-		       \end{itemize}
-		       %\cite{towardsDataSience:SL}
+		\subsubsection{Supervised learning:}
+			This type of algorithms is designed to learn by example, and the idea behind is that training this type of algorithms is like having
+			a "supervisor" watching over the whole prosess. The training data consists of input that is paired with the correct output and during
+			training the algorithm will search for patterns that correlates to the desired output. After training you get a model that takes new
+			unseen input data (of the same kind) and determine which label this new inputs classifies as based on the training data. The whole essence
+			of this kind of algorithms is to predict the correct label for newly presented inputs based on past data. On it's simplest form it can be written as
+			$$ Y = f(x) $$ where $Y$ is the desired output from the mapping function $f$ with value $x$ \cite{towardsDataSience:SL}. Supervised learning can be devided in to two categories
 
-		 \item \textbf{Unsupervised learning:}\\
-		       In contrary to supervised learning that needs to train it's algorithms to recognize patterns in dataset with known labels, unsupervised learning
-		       is used on big dataset to recognize patterns in unlabeled dataset. In simpler terms this type of algorithm learns useful patterns and properties in
-		       the data structure in big datasets with no labels. The most used algorithm used in unsupervised learing is cluster analysis. %  \cite{deepAI:UL} \cite{wiki:UL}.
+			\paragraph{Classification}
+			This algorithm is typically used to put the new data into a category or a class based on it's training data. Under training this algorithm
+			will be given data points with an assigned category. The most common example is filtering out spam emails.
 
-		       \paragraph{Cluster analysis}
-		       Cluster analysis, also called clustering, is used to group datasets with shared properties in order to find algorithmic relationships. Each group made is
-		       called a cluster hence the name cluster analysis or clustering, but the name "cluster" can not be precisely defined. Since the notion cluster isn't well defined
-		       there are many different clusering algorithms out there, but they all have one thing in common they group data %\cite{wiki:CA}.
+			\paragraph{Regression}
+			This algorithm is a predictive statistical process where the model tries to find relationship between dependent and independent variables
+			in the data set. The goal of a regression algorithm is to predict a continuous number such as sales, income, and test scores.
 
-		 \item \textbf{Reinforcement learning:}\\
-		       Reinforcement learning (RL) agent is learning by interacting with an environment, in other words it learns from the consequences of its actions. The RL agent can
-		       do this because of a numerical reward system that encodes the sucsessof an action's outcome. The RL agent seeks to learn how to find the actions that accumulate the
-		       most reward ovr time.. So it learns from exploring the envirnment and decision making
 
-	 \end{enumerate}
+		\subsubsection{Unsupervised learning:}
+			In contrary to supervised learning that needs to train it's algorithms to recognize patterns in dataset with known labels, unsupervised learning
+			is used on big dataset to recognize patterns in unlabeled dataset. In simpler terms this type of algorithm learns useful patterns and properties in
+			the data structure in big datasets with no labels. The most used algorithm used in unsupervised learing is cluster analysis \cite{deepAI:UL} \cite{Wiki:UL}.
 
-\section{Implementation of AI in AV's}
- % # TODO: Hoveddel
+			\paragraph{Cluster analysis}
+			Cluster analysis, also called clustering, is used to group datasets with shared properties in order to find algorithmic relationships. Each group made is
+			called a cluster hence the name cluster analysis or clustering, but the name "cluster" can not be precisely defined. Since the notion cluster isn't well defined
+			there are many different clusering algorithms out there, but they all have one thing in common they group data \cite{Wiki:CA}.
+
+		\subsubsection{Reinforcement learning:}
+			Reinforcement learning (RL) agent is learning by interacting with an environment, in other words it learns from the consequences of its actions. The RL agent can
+			do this because of a numerical reward system that encodes the sucsess of an action's outcome. The RL agent seeks to learn how to find the actions that accumulate the
+			most reward over time. The RL agent learns from exploring it's environment and making decision upon how to act in every singel scenario, instead of explicitly getting tought
+			how to respond in advance. Thus this kind of algorithms is very complicated compared to the other two other ML categories algorithms \cite{Scholar:RL}.
+
+	\subsection{Artificial neural network}
+		Artificial neural networks (NN) are interconnected sets of model neurons that simulate the function of biological neural networks.
+		The neurons in a neural network is a mathematic function that collects and classifies information. The network is much like the
+		statistical methods such as curve fitting and regression analysis. NN contains layers of interconnected nodes and each node
+		is a binary linear classifier called perceptron and is simular to multiple linear regressions. \cite{pedia:NN}
+
+	\subsection{Semantic image segmentation}
+		Partitioning a digital image into multiple segments (sets of pixels) based on some charistics is image segmentation. Semantic image segmentation is when we assign a class to each
+		pixel in the image \cite{towardsDataSience:SIS}. This technique uses the unsupervised learning category in ML along with NN (this is also called deep learing) to partitioning the image
+		and classifying the pixels.
+
+
+\section{Implementation of AI in AV's and it's consequences}
+RTOS are essential software's used in our daily lifes. They are implemented in between the
+hardware abstraction layer and the user application interfaces. They handle all the tasks, semaphores and
+how these are prioritesed. This is why they are implemented in AV's, and every other system which needs handling
+of time- and safetycritical objectives.
  % Går dypere inn i temaene som er nevnt introduksjon
  % Tekniske termer skal forklares i teoribiten og blir refert dit
  % antas videre at leseren vet dette
- \subsection{Which algorithms are used?}
-	 What kind of algorithm used is dependent on computational ability and determined on what kind of technology
-	 implemented within the AV. Be it GPS, LIDAR or similar. There is no problem
-	 implementing all sorts of algorithms, but a factor that limits range of viable candidates
-	 are, the beforementioned demands and also demands in regards to safety and security.
 
- \subsection{Safety}
- \subsection{Implementation}
- \subsection{GDPR}
+ \subsection{Why do we use AI in vehicles?}
+	We need to go 30-40 years back to find a vehicle that did not use any kind of AI, we can say that the vehicle was without a "brain".
+	The vehicles where purely mechanic and the human behind the "steeringwheel" was the one in control, the "brain" of the vehicle.
+	Take cars as an example, there where no anti-lock breaking system (ABS), electronical stability control (ESC), cruise control, detection for tire pressure
+	the list goes on. The reason we use AI in vehicles is to make the vehicle safer, not only for the driver but for everybody. %Føler at setningen er halv ferdig prøv gjerne å fullfør
 
-	 % # TODO: Konklusjon
+	As a thought experiment, AI could be implemented with the intention of detecting all possible
+	obstacles and objects in an environment. Ranging from traffic lights and road signs, to humans,
+	houses, animals and so on. The insentive would be the safety aspect of a traffic environment.
+	When it comes to simple arithmetic operations, computers are far superior than humans when it comes
+	to calculation and the precissions of these calculations. With clear directives, protocols and instructions
+	AI, would react and take action much faster than a humanbeeing ever could. This would make
+	AV's far more optimal for collective transport, and also a tremendous supplement when it comes to
+	assistive functions in human operated vehicles.
+
+	If we take a look at modern cars, this kind of AI is already in use. There is for example a city safe systems that
+	helps the driver avoid collision in small velocities. This system uses lidar and cameras along with object detection technology
+	to detect if there is a pedestrian or even an animal entering it's lane, or just to avoid collision in slow going queues.
+	We are actually not so far away from beeing able to have vehicles that can be fully autonomous as explained in the thought experiment.
+
+	Allready this year (2020) 60 countries, including Norway, have reached a milestone in mobility with the adoption of a United Nations Economic
+	Commission for Europe (UNECE) regulation that will allow for safer introduction for AV's in certain traffic situastions. In this regulation
+	there is given strict requirements for Automated Lane Keeping Systems (ALKS). This new regulation therfore marks an important step towards
+	the further deployment of AV's in the future, and helps realize the vision in the thought experiment for safer, more sustainable mobility for
+	everyone. \cite{UNECE:LKS}
+
+\subsection{Implementation}
+	% How is AI/ algorithms implemented in AV's
+	\subsubsection{Which algorithms are used?}
+		What kind of algorithm used is dependent on computational ability and determined on what kind of technology
+		implemented within the AV. Be it GPS, LIDAR or similar. There is no problem
+		implementing all sorts of algorithms, but a factor that limits range of viable candidates
+		are, the beforementioned demands and also demands in regards to safety and security.
+
+	\subsubsection{Semantic image segmentation}
+		An essential part of a modern AV's driving system, for navigating through it's surroundings
+		and action handling, is semantic image segmentation. Their excellent performance in recognition
+		makes this technique optimal for various AV implementations\cite{CVPR}. Unfortunately the the technique per now,
+		is computationally quite costly and therefor not implemented in practice.\cite{Bugala2018}
+
+		Instead predefined features from images are used in simple driverassisted functions like
+		recognition of road signs, road markings and traffic lights. So there is no real-time training
+		happening in the vehicles system as it drives.
+
+ \subsection{Ethics}
+	\subsubsection{Evaluation}
+		We will briefly discuss how semantic image segmentation is implemented
+		in AV's and some of it's effects and consequences. Certain thought experiments and
+		future conjectures will be utilized to reveal certain ethical and safety aspects which
+		mus be critically evaluated when considering deploying AI into dailiy life AV.
+
+	\subsubsection{Decisions}
+		How would AI decide which action to take when it comes to a life and death situation. Certain
+		cornerstone examples could be to hit a child or an elderly person. Or the vehicle has 5 people in it and is on the collision course
+		with one person, should it hit and kill the one person or drive off the road potentially killing every one in the vehicle?
+		This kind of extremal problem all though important to think about is from an engineering point of view unnecassery. Why not try avoid a situation
+		like this all together? These kind of dilemmas maintains the assumption that the car only have two option when in reality it would have infinite.
+		That the vehicle has such a high velocity it couldn't brake down to a speed that would'nt kill anyone is also unprobable in this scenario \cite{IEEE:ethics}.
+		The easy solution to this problem is to have the vehicle have a safe velocity in areas that these scenarios are probable, and therfore a city safe system
+		that is in modern vehicles today would take care of that problem.
+
+		We should not discard these kinds of problems all togehter. It is very important to have in mind when developing AV technology. We should not limit the
+		vehicle binary choices but rather multiple decision to choose from. Then look for the optimal solution in statistics. With this a statistical outcome we as
+		a society have to consider how we want to distribuate the fatalities between the passengers and pedestrians.
+
+
+	% Face recognition.
+	% Recognize old from young?
+	% How to decide safest outcome of given lifethreatening situation?
+
+
+
 \section{Conclusion}
+	The end goal of implementing AV's should always be to minimize the risk and fatalities of travelig along the roads or streets in the cities. That is also why
+	edge problem, trolley dilemmas is important to think about and should be talked about to make the society aware of the risks. But it shoud'nt be suffocating all
+	the good that comes out of implementing AV's. City safe system that is used in vehicles today along with brake technology makes it alot safer for pedestrians to
+	travel along the road side where the speedlimit is below 40 km/h. We are posetive that this technology will only get better and makes the future for AV's brighter.
+	We have this year already come to level 3 AV's with the UNECE regualtion for ALKS, we still have to pay atention on the roads and be ready to interfiere if something
+	goes wrong.
+
+	We should'nt be hold back by ethical problems that does'nt need to be a problem when developing AV's. If the trolley problem had been taking in consideration when making
+	railways, we would'nt have railways today. Therfore the rules and regulation for this kind of technology should be decided along with the development and when the problem is a fact.
+	Semantic image segmantation, LIDAR and RTOS is still relatively new technologies that will get better in time and together make complete AV's a reality in the future.
 
  % Example for rightjustified fill:
  % \hfill mds

@@ -49,6 +49,7 @@ a starting point for further work on an autonomous vehicle to be carried out at 
   journal      = {VentureBeat},
   url          = {https://venturebeat.com/2019/06/13/volvos-vera-autonomous-trucks-will-transport-dfds-goods-on-public-roads/},
 }
+<<<<<<< HEAD
 
 @Misc{Wikipedia2020-ML,
   author       = {Wikipedia},
@@ -65,3 +66,164 @@ a starting point for further work on an autonomous vehicle to be carried out at 
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectoryLatex-sibeo-sibeov-win10-lenovot470:C:\\Users\\sibeo\\OneDrive\\education-s\\oslomet\\DAVE3625\\DAVE3625\\DAVE3625_Assignments\\dave3625-report-2020;}
+=======
+
+@Misc{Wiki:ML,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Machine_learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Machine learning},
+  year         = {2020},
+  abstract     = {Machine learning (ML) is the study of computer algorithms that improve automatically through experience.[1] It is seen as a subset of artificial intelligence. Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.},
+  timestamp    = {27-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Machine_learning},
+}
+
+@Misc{Wiki:UL,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Unsupervised_learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Unsupervised learning},
+  year         = {2020},
+  abstract     = {Unsupervised learning is a type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of human supervision. In contrast to supervised learning that usually makes use of human-labeled data, unsupervised learning, also known as self-organization allows for modeling of probability densities over inputs.[1] It forms one of the three main categories of machine learning, along with supervised and reinforcement learning. Semi-supervised learning, a related variant, makes use of supervised and unsupervised techniques.},
+  timestamp    = {27-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Unsupervised_learning},
+}
+
+@Misc{Wiki:CA,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Cluster_analysis}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Cluster analysis},
+  year         = {2020},
+  abstract     = {Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics and machine learning.},
+  timestamp    = {27-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Cluster_analysis},
+}
+
+@Misc{deepAI:UL,
+  author       = {Thomas Wood},
+  howpublished = {\url{https://deepai.org/machine-learning-glossary-and-terms/unsupervised-learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Unsupervised learning},
+  year         = {2020},
+  abstract     = {Unsupervised learning is a kind of machine learning where a model must look for patterns in a dataset with no labels and with minimal human supervision. This is in contrast to supervised learning techniques, such as classification or regression, where a model is given a training set of inputs and a set of observations, and must learn a mapping from the inputs to the observations. In unsupervised learning, only the inputs are available, and a model must look for interesting patterns in the data.},
+  timestamp    = {27-11-2020},
+  url          = {https://deepai.org/machine-learning-glossary-and-terms/unsupervised-learning},
+}
+
+@Misc{Scholar:RL,
+  author       = {Scholarpedia},
+  howpublished = {\url{http://www.scholarpedia.org/article/Reinforcement_learning}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Reinforcement learning},
+  year         = {2020},
+  abstract     = {Reinforcement learning (RL) is learning by interacting with an environment. An RL agent learns from the consequences of its actions, rather than from being explicitly taught and it selects its actions on basis of its past experiences (exploitation) and also by new choices (exploration), which is essentially trial and error learning. The reinforcement signal that the RL-agent receives is a numerical reward, which encodes the success of an action's outcome, and the agent seeks to learn to select actions that maximize the accumulated reward over time. (The use of the term reward is used here in a neutral fashion and does not imply any pleasure, hedonic impact or other psychological interpretations.)},
+  timestamp    = {27-11-2020},
+  url          = {http://www.scholarpedia.org/article/Reinforcement_learning},
+}
+
+@Misc{towardsDataSience:SL,
+  author       = {Aidan Wilson},
+  howpublished = {\url{https://towardsdatascience.com/a-brief-introduction-to-supervised-learning-54a3e3932590}},
+  month        = dec,
+  note         = {Accessed 27-11-2020},
+  title        = {Supervised learning},
+  year         = {2020},
+  abstract     = {Supervised learning is the most common subbranch of machine learning today. Typically, new machine learning practitioners will begin their journey with supervised learning algorithms. Therefore, the first of this three post series will be about supervised learning.},
+  timestamp    = {27-11-2020},
+  url          = {https://towardsdatascience.com/a-brief-introduction-to-supervised-learning-54a3e3932590},
+}
+
+@Misc{Wiki:RADAR,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Radar}},
+  month        = dec,
+  note         = {Accessed 18-11-2020},
+  title        = {Radar},
+  year         = {2020},
+  abstract     = {Radar is a detection system that uses radio waves to determine the range, angle, or velocity of objects. It can be used to detect aircraft, ships, spacecraft, guided missiles, motor vehicles, weather formations, and terrain. A radar system consists of a transmitter producing electromagnetic waves in the radio or microwaves domain, a transmitting antenna, a receiving antenna (often the same antenna is used for transmitting and receiving) and a receiver and processor to determine properties of the object(s). Radio waves (pulsed or continuous) from the transmitter reflect off the object and return to the receiver, giving information about the object's location and speed.},
+  timestamp    = {18-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Radar},
+}
+
+@Misc{Wiki:LIDAR,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Lidar}},
+  month        = dec,
+  note         = {Accessed 18-11-2020},
+  title        = {Lidar},
+  year         = {2020},
+  abstract     = {Lidar (/ˈlaɪdɑːr/, also LIDAR, LiDAR, and LADAR) is a method for measuring distances (ranging) by illuminating the target with laser light and measuring the reflection with a sensor. Differences in laser return times and wavelengths can then be used to make digital 3-D representations of the target. It has terrestrial, airborne, and mobile applications.},
+  timestamp    = {18-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Lidar},
+}
+
+@Misc{Wiki:RTOS,
+  author       = {Wikipedia},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Real-time_operating_system}},
+  month        = dec,
+  note         = {Accessed 18-11-2020},
+  title        = {RTOS},
+  year         = {2020},
+  abstract     = {A real-time operating system (RTOS) is an operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays. Processing time requirements (including any OS delay) are measured in tenths of seconds or shorter increments of time. A real-time system is a time-bound system which has well-defined, fixed time constraints. Processing must be done within the defined constraints or the system will fail. They either are event-driven or time-sharing. Event-driven systems switch between tasks based on their priorities, while time-sharing systems switch the task based on clock interrupts. Most RTOSs use a pre-emptive scheduling algorithm.},
+  timestamp    = {18-11-2020},
+  url          = {https://en.wikipedia.org/wiki/Real-time_operating_system},
+}
+
+@InProceedings{CVPR,
+  author    = {Pohlen, Tobias and Hermans, Alexander and Mathias, Markus and Leibe, Bastian},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  title     = {Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes},
+  year      = {2017},
+  month     = {July},
+}
+
+@Misc{towardsDataSience:SIS,
+  author       = {Arun Kumar},
+  howpublished = {\url{https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8}},
+  month        = dec,
+  note         = {Accessed 28-11-2020},
+  title        = {Semantic image segmentation},
+  year         = {2020},
+  abstract     = {Humans have the innate ability to identify the objects that they see in the world around them. The visual cortex present in our brain can distinguish between a cat and a dog effortlessly in almost no time. This is true not only with cats and dogs but with almost all the objects that we see. But a computer is not as smart as a human brain to be able to this on its own. Over the past few decades, Deep Learning researchers have tried to bridge this gap between human brain and computer through a special type of artificial neural networks called Convolutional Neural Networks(CNNs).},
+  timestamp    = {28-11-2020},
+  url          = {https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8},
+}
+
+@Misc{pedia:NN,
+  author       = {Scholarpedia},
+  howpublished = {\url{https://www.investopedia.com/terms/n/neuralnetwork.asp}},
+  month        = dec,
+  note         = {Accessed 28-11-2020},
+  title        = {Reinforcement learning},
+  year         = {2020},
+  abstract     = {A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature. Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria. The concept of neural networks, which has its roots in artificial intelligence, is swiftly gaining popularity in the development of trading systems.},
+  timestamp    = {28-11-2020},
+  url          = {https://www.investopedia.com/terms/n/neuralnetwork.asp},
+}
+
+@Misc{UNECE:LKS,
+  author       = {UNECE},
+  howpublished = {\url{https://www.unece.org/info/media/presscurrent-press-h/transport/2020/un-regulation-on-automated-lane-keeping-systems-is-milestone-for-safe-introduction-of-automated-vehicles-in-traffic/doc.html}},
+  month        = dec,
+  note         = {Accessed 28-11-2020},
+  title        = {Regulation on automated lane keeping systems},
+  year         = {2020},
+  abstract     = {Some 60 countries have reached a milestone in mobility with the adoption of a United Nations Regulation that will allow for the safe introduction of automated vehicles in certain traffic environments.},
+  timestamp    = {28-11-2020},
+  url          = {https://www.unece.org/info/media/presscurrent-press-h/transport/2020/un-regulation-on-automated-lane-keeping-systems-is-milestone-for-safe-introduction-of-automated-vehicles-in-traffic/doc.html},
+}
+
+@Article{,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: fileDirectoryLatex-sibeo-sibeov-win10-lenovot470:C:\\Users\\sibeo\\OneDrive\\education-s\\oslomet\\DAVE3625\\DAVE3625\\DAVE3625_Assignments\\dave3625-report-2020;}
+>>>>>>> 0c9d21cde93e8122506eb0b87e8804c9f5bf5312
